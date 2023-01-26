@@ -30,6 +30,9 @@ body#home header #home-link{
     color: rgb(142, 142, 142);
     text-decoration: none;
 }
+.link-menu:hover{
+    color:orange
+}
 .container{
     display: flex;
     justify-content:space-around;
@@ -58,7 +61,12 @@ body#home header #home-link{
     border-radius: 5px;
     margin-top: 10%;
     font-size: 15px;
+    cursor: pointer;
 }
+.btn-começe-ja:hover{
+    background-color:rgb(83,166,211) ;
+}
+
 .wpp{
     width: 25px;
     margin-right: 10px;
@@ -79,3 +87,45 @@ main{
    text-align: center;
 }
 
+
+@media  screen and (max-width:375px) {
+    main{
+        margin-bottom: 40px;
+    }
+    header{
+        width: 100%;
+    }
+    .box-menu{
+        width: 100%;
+        justify-content:space-evenly;
+    }
+    .treine-me{
+        margin-right: 25px;
+       font-size:15px ;
+    }
+    .link-menu{
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .container{
+        width:100%;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 30px;
+    }
+    .text{
+        font-size:12px ;
+        margin-top: 4%;
+    }
+    img{
+        width: 100%;
+    }
+    .img-hero{
+        order:1;
+    }
+    .rodape{
+        font-size: 12px;
+    }
+    
+}
