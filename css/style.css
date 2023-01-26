@@ -88,7 +88,7 @@ main{
 }
 
 
-@media  screen and (max-width:375px) {
+@media  screen and (max-width:570px) {
     main{
         margin-bottom: 40px;
     }
@@ -128,4 +128,103 @@ main{
         font-size: 12px;
     }
     
+}
+@media screen and (min-width:570.1px) and (max-width:768px){
+    main{
+        margin-bottom: 0;
+    }
+    header{
+        width: 100%;
+    }
+    .box-menu{
+        width: 100%;
+        justify-content:space-evenly;
+    }
+    .treine-me{
+        margin-right: 25px;
+       font-size:35px ;
+    }
+    .link-menu{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .container{
+        width:100%;
+        margin-top: 2%;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .text{
+        font-size:25px ;
+        margin-top: 4%;
+    }
+    img{
+        width: 100%;
+    }
+    .btn-começe-ja{
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .wpp{
+        width: 30px;
+    }
+    .img-hero{
+        order:1;
+    }
+    .rodape{
+        font-size: 20px;
+    }
+    
+}
+@media screen and (min-width:768.1px) and (max-width:992px){
+    main{
+        margin-bottom: 0;
+    }
+    header{
+        width: 100%;
+    }
+    .box-menu{
+        width: 100%;
+        justify-content:space-evenly;
+    }
+    .treine-me{
+        margin-right: 25px;
+       font-size:35px ;
+    }
+    .link-menu{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .container{
+        width:100%;
+        margin-top: 10%;
+        flex-direction: column;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .text{
+        font-size:25px ;
+        margin-top: 4%;
+    }
+    img{
+        width: 100%;
+    }
+    .btn-começe-ja{
+        width: 200px;
+        height: 70px;
+        font-size: 20px;
+    }
+    .wpp{
+        width: 30px;
+    }
+    .img-hero{
+        order:1;
+    }
+    .rodape{
+        font-size: 20px;
+    }
 }
